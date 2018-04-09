@@ -22,10 +22,6 @@ piObj["pi2"]=piVar0*2.0;
 alert("Case 4: original const piObj only has 1 key+value"+piObj.pi+"; "
 	  +" changed to 2keys+values, 2nd key-value="+piObj["pi2"]);
 
-function piPure(piobj){
-    return piobj;
-}
-
 
 var values = { a: 1 }, values0=values;
 
