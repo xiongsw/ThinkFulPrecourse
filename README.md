@@ -1,2 +1,2 @@
 # ThinkFulPrecourse
-# ThinkFulPrecourse
+# basic learning practice
