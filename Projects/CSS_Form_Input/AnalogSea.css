@@ -1,0 +1,101 @@
+bbody{font-family: Arial, Helvetica, sans-serif;
+margin:0;
+-ms-box-sizing:content-box;
+-moz-box-sizing:content-box;
+-webkit-box-sizing:content-box; 
+}
+
+*{ /* we must put here 2018/03/22 */
+  box-sizing: border-box;
+}
+
+#topNav {width: 100%;
+   background-image: url("https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png"
+                         );
+   background-repeat: no-repeat;
+   background-size: contain; 
+   background-color: #f1f1f1;
+   border: 1px solid green;
+   overflow: hidden;
+}
+#topNav  a{ border: 1px solid green;
+	padding: 14px 2%;
+	font: 150% arial, sans-serif;
+	color: blue;
+	text-decoration: none;
+    text-align: center;
+    float: right;
+    display: block; 
+}
+
+#topNav a:hover{
+	background: pink;
+}
+#topNav a.active{
+	background: white;
+	color: black;
+}
+
+#Sign-background{
+  background: #298eea; 
+  background-image: url("https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png"
+                         );
+   background-repeat: no-repeat;
+   background-size: 12% 35px; 
+   background-position: 50% 2%;
+  font-family: "Roboto", helvetica, sans-serif;
+  padding: 60px 0 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+fieldset {border:none;padding: 0;
+  border: 0;
+  margin: 0;}
+
+
+#signup-form{
+    width: 400px;
+  padding: 40px;
+  border-radius: 3px;
+  background: white;
+  margin: 0 auto;
+}
+
+legend {width: 100%;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto 45px;
+}
+
+/*label {display: block;} */
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 3px;
+  background: #fcfcfc;
+  margin: 10px auto 20px;
+  transition: opacity 0.4s;
+}
+button[type="submit"] {
+  height: auto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #15CD72;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  
+}
+button[type="submit"]:hover {
+ background-color: #45a049;}

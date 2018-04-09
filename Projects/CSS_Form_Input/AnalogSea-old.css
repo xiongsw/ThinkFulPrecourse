@@ -1,0 +1,100 @@
+body {font-family: Arial, Helvetica, sans-serif;
+margin:0;
+-ms-box-sizing:content-box;
+-moz-box-sizing:content-box;
+-webkit-box-sizing:content-box; 
+/* box-sizing:content-box; */
+}
+
+*{ /* we must put here 2018/03/22 */
+  box-sizing: border-box;
+}
+
+
+#topNav {width: 100%;
+   background-image: url("https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png"
+                         );
+   background-repeat: no-repeat;
+   background-size: contain; 
+   background-color: #f1f1f1;
+   border: 1px solid green;
+   overflow: hidden;
+}
+#topNav  a{ border: 1px solid green;
+	padding: 14px 2%;
+	font: 150%;
+	color: blue;
+	text-decoration: none;
+    text-align: center;
+    float: right;
+    display: block; 
+}
+
+#topNav a:hover{
+	background: pink;
+}
+#topNav a.active{
+	background: white;
+	color: black;
+}
+
+#Sign-background{
+  background: #298eea; 
+  background-image: url("https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png"
+                         );
+   background-repeat: no-repeat;
+   background-size: 12% 35px; 
+   background-position: 50% 3%;
+  font-family: "Roboto", helvetica, sans-serif;
+  padding: 60px 0 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+fieldset {border:0;
+margin:0;
+padding: 0;}
+
+#Sign-container{
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+	background: white;
+}
+
+label {display: block;} 
+input[type="email"],
+input[type="password"],button[type="submit"]{
+    width: 100%;
+    height: auto; 
+     margin: 10px auto 20px; 
+      padding: 15px;
+     border: 2px;
+     font: 15px;
+     text-align: auto;
+     background: green;    
+     display: inline-block; 
+}
+button[type="submit"] {
+	   cursor: pointer;
+     font: 20px;
+     background: green;
+     text-align: auto;
+     margin-bottom: 0;
+}
+footer {
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+  font-weight: 600;
+  border: 0;
+  padding: 0;
+}
+
+footer b a {
+  color: white;
+}
+
+footer b a:hover {
+  color: #E7F1F9; 
+}

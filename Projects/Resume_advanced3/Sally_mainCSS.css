@@ -1,0 +1,64 @@
+
+h1 {text-align: center;}
+
+#Address_ID {font-size:16px;
+ 	         text-align:center;
+            }
+
+ #address_spanId1 {font-size: 16px; 
+  margin-left:20px;
+         }
+
+#time_spanId1 {float: right;}
+#time_spanId2 {
+               margin-left: 400px;}
+#time_spanId3 {
+               margin-left: 392px;}
+#time_spanId4 {
+               margin-left: 392px;}
+
+ .skills_left{margin-left:10px;
+  float: left;
+  width:1000px;
+ /* background:#0000ff; */
+  height:148px;
+}
+
+.skills_right{
+  float: left;
+  width: auto;
+/*  background:#ff0000; */
+  height:148px;
+}
+ .Education_left{margin-left:10px;
+  float: left;
+  width:800px;
+ /* background:#0000ff; */
+  height:108px;
+}
+ .Experience_left{margin-left:10px;
+  float: left;
+  width:1000px;
+ /* background:#0000ff; */
+  height:208px;
+  line-height: 22px;
+}
+.Experience_right{
+  float: left;
+ width: auto;
+/*  background:#ff0000; */
+  height:148px;
+}
+
+#p_thick {font-weight: bold;}
+
+#footer_ID {
+    background-color:blue;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+
+
